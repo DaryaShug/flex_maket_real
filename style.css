@@ -132,7 +132,7 @@ body {
     .wrapper {
         grid-template-columns: 1fr;
     }
-    .wrapper .first-card {
+    /* .wrapper .first-card {
         grid-column: span 1;
-    }
+    } */
 }
