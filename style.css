@@ -1,8 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 :root {
+  --card-bg-col_light: #fff;
+  --card-bg-col_dark: #751010;
   --bg-col: #e2e7ec;
-  --card-bg-col: #fff;
+  --card-bg-col: var(--card-bg-col_light);
   --card-data-col: #818181;
   --card-h2-col: #1d1d1d;
   --first-card-data-col: #aeaca9;
