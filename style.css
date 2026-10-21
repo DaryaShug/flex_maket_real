@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     background-color: #e2e7ec;
 
@@ -49,13 +53,13 @@ body {
 }
 
 .card__data {
-    font-size: 13px;
+    font-size: 1.3rem;
     color: #818181;
 }
 
 .card h2 {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #1d1d1d;
     text-transform: uppercase;
     margin-top: 20px;
@@ -69,7 +73,7 @@ body {
 .card__author {
     flex-grow: 1;
     align-content: flex-end;
-    margin-top: 50px;
+    margin-top: 5rem;
 }
 
 /* стили первой карточки: */
@@ -110,7 +114,7 @@ body {
 }
 
 .wrapper .first-card h2 {
-    font-size: 30px;
+    font-size: 3.0rem;
     color: #fff;
 }
 
@@ -121,6 +125,9 @@ body {
 /* -tablet----------------------------------------------------------------------------------- */
 
 @media (max-width: 600px) {
+    html {
+        font-size: 9px;
+    }
     .wrapper {
         grid-template-columns: 1fr 1fr;
     }
@@ -129,6 +136,9 @@ body {
 /* -mobile----------------------------------------------------------------------------------- */
 
 @media (max-width: 300px) {
+    html {
+        font-size: 8px;
+    }
     .wrapper {
         grid-template-columns: 1fr;
     }
