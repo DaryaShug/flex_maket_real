@@ -73,13 +73,13 @@ body {
 }
 
 /* стили первой карточки: */
-.wrapper .card:first-child {
+.wrapper .first-card {
     grid-column: span 2;
 
     position: relative;
 }
 
-.wrapper .card:first-child:before{
+.wrapper .first-card:before{
     content: "";
     display: block;
     width: 100%;
@@ -92,29 +92,29 @@ body {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
 }
 
-.wrapper .card:first-child img {
+.wrapper .first-card img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.wrapper .card:first-child .card__data {
+.wrapper .first-card .card__data {
     color: #aeaca9;
 }
 
-.wrapper .card:first-child .card__content {
+.wrapper .first-card .card__content {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 70%;
 }
 
-.wrapper .card:first-child h2 {
+.wrapper .first-card h2 {
     font-size: 30px;
     color: #fff;
 }
 
-.wrapper .card:first-child .card__author {
+.wrapper .first-card .card__author {
     display: none;
 }
 
@@ -132,7 +132,7 @@ body {
     .wrapper {
         grid-template-columns: 1fr;
     }
-    .wrapper .card:first-child {
+    .wrapper .first-card {
         grid-column: span 1;
     }
 }
